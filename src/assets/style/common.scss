@@ -1,0 +1,29 @@
+/* 浮动 */
+.fl{float:left}
+.fr{float:right}
+.clearfix:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.clearfix{zoom:1;}
+// position
+.pr {position: relative !important;}
+.pa {position: absolute !important;}
+.pf {position: fixed !important;}
+.palt {top: 0; left: 0; @extend .pa;}
+.part {top: 0; right: 0; @extend .pa;}
+.palb {bottom: 0; left: 0; @extend .pa;}
+.parb {bottom: 0; right: 0; @extend .pa;}
+.pflt {top: 0; left: 0; @extend .pf;}
+.pftm {top: 0; left: 0; right:0; margin:auto; @extend .pf;}
+.pfrt {top: 0; right: 0; @extend .pf;}
+.pflb {bottom: 0; left: 0; @extend .pf;}
+.pfrb {bottom: 0; right: 0; @extend .pf;}
+// 宽高
+.w100 {width: 100%}
+.h100 {height: 100%}
+// 其他
+.cp {cursor: pointer}
+.oa{overflow:auto;}
+.oay{overflow-y:auto;}
